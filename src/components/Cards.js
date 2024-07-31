@@ -113,6 +113,7 @@ function Cards({ startDate, things }) {
 
     /* console.log("Current: " + currentThing.number);
     console.log("Current number: " + currentThing.sentence); */
+    /* Comment! */
 
     return (
         <div className='card-container'>
