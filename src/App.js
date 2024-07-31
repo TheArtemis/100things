@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import './styles/card-container.css'
+import Cards from './components/Cards';
+import Title from './components/Title';
+
+const things = [
+        "Sessanta cose mi fanno sparire delle altrre",
+        "Non ti piuassasse le robe dell nostre nisse altro",
+        "Cosa mi paice nel asdkajdh delle shajsds",
+        "dskfjhdskjfhs",
+        "nulla nelle nalle sulle"
+    ]
+const startDate = new Date("2024-07-28");
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    return (
+    <div>
+        <Title name="Lorenzo"/>
+        <Cards startDate={startDate} things={things}/>    
     </div>
   );
 }

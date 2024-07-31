@@ -1,0 +1,44 @@
+.card {
+    border: 2px solid;    
+    border-radius: 20px;
+    box-shadow: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 20rem;
+    width: 50rem;
+    -webkit-box-shadow: 0px 0px 27px 15px rgba(0,0,0,0.072);
+    -moz-box-shadow: 0px 0px 27px 15px rgba(0,0,0,0.072);
+    box-shadow: 0px 0px 27px 15px rgba(0,0,0,0.072);
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.noselect {
+    -webkit-user-select: none;  /* Safari */
+    -moz-user-select: none;     /* Firefox */
+    -ms-user-select: none;      /* Internet Explorer/Edge */
+    user-select: none;          /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.card-header {
+    margin: 0px;
+    width: 100%;
+}
+
+.number {
+    margin: 0px;
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.thing {
+    font-size: x-large;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}

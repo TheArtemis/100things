@@ -1,0 +1,29 @@
+.arrow {
+    margin: 1rem;
+    padding: 1rem;
+    border: black solid;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    background-image: url("../svg/arrow-white.svg");
+    background-size: 50%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-box-shadow: 0px 0px 27px 15px rgba(0,0,0,0.072);
+    -moz-box-shadow: 0px 0px 27px 15px rgba(0,0,0,0.072);
+    box-shadow: 0px 0px 27px 15px rgba(0,0,0,0.072); 
+}
+
+.arrow-up {
+    transform: rotate(270deg);
+    margin-bottom: 1rem;
+}
+
+.arrow-down {
+    transform: rotate(90deg);
+}
+
+.arrow:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.title-wrap {
+    text-align: center;
+    width: 100%;
+}
+
+.title {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size:xx-large;
+}
