@@ -10,7 +10,7 @@ const things = [
         "How hardworking you are when you go Project Mode",
         "How competitive you are whenever we play cards (or any game really)."
     ]
-const startDate = new Date("2024-07-28");
+const startDate = new Date("2024-07-31");
 
 function App() {
     return (
