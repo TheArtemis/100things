@@ -3,7 +3,7 @@ import '../styles/title.css'
 function Title(props) {
     return (
         <div className="title-wrap">
-            <h1 className="title">Cazzo mene di {props.name}</h1>
+            <h1 className="title">100 Things I love about {props.name}</h1>
         </div>
     );
 }
